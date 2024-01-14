@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kavivanar:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
+
+        body {
+            margin: 0;
+        }
+
+        .bg-container {
+            background-image: url("bg.png");
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            color: black;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .card1 {
+            background-color: #A95EE3;
+            color: black;
+            padding: 20px;
+            margin: 0;
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-card{
+            background-color: #F0B4F9;
+            color: black;
+            padding: 20px;
+            margin: 30px;
+            border-radius: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 450px;
+            width: 450px;
+        }
+        .contact-paragraph {
+            color: black;
+            font-size: 25px;
+            font-family: 'Inria Sans', sans-serif;
+            padding: 15px;
+            margin: 15px;
+            white-space: pre-line; /* Preserve line breaks */
+        }
+
+        .d-flex.flex-row.justify-content-start {
+            margin-left: 30px; /* Adjust the left margin to move the card to the left */
+        }
+
+        .logo {
+            font-size: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            margin-right: 10px;
+        }
+        .logo-name{
+            font-family:"Satisfy";
+            font-size: 30px;
+        }
+
+        .navigate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navigate a {
+            text-decoration: none;
+            color: black;
+            margin-left: 15px;
+            font-size: 18px;
+        }
+        .contact-heading{
+            color: black;
+            font-family: Kavivanar;
+            padding: 5px;
+            margin: 10px;
+        }
+        .input-style{
+            height: 35px;
+            width: 350px;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .input-style2{
+            height: 65px;
+            width: 350px;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .submit-btn{
+            background-color:#A95EE3;
+            height: 40px;
+            width:140px;
+            padding: 5px;
+            margin: 20px;
+            color:black;
+            border-radius: 15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+
+        }
+        .spacer {
+            flex-grow: 1;
+        }
+        .connect{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+            <header class="card1">
+                <div class="logo">
+                    <a href="#"><img src="logo.jpg" height="60px" width="70px"></a>
+                    <h5 class="logo-name">Kota Naga Seetha</h5>
+                </div>
+                <div class="navigate">
+                    <a href="test.html">Home</a>
+                    <a href="about.html">About</a>
+                    <div class="spacer"></div>
+                    <a href="Skills.html">Skills</a>
+                    <a href="Projects.html">Projects</a>
+                    <a href="#"><b><u>Contact</u></b></a>
+                </div>
+            </header>
+            <div>
+                <div class="d-flex flex-row justify-content-start">
+                    <div class="d-flex flex-column justify-content-center">
+                        <h1 class="contact-heading">Let's Work Together!</h1>
+                        <p class="contact-paragraph">Hello, fellow tech enthusiasts!
+                            I'm always on the lookout for exciting opportunities 
+                            to collaborate, learn, and create something amazing. 
+                            Whether it's a coding project, a challenging problem to solve, 
+                            or a chance to explore innovative ideas, 
+                            I'm eager to team up with like-minded individuals.</p>
+                        <h3 class="contact-heading">Let's connect</h3>
+                        <div class="d-flex flex-row ">
+                            <a href="https://github.com/NagaSeetha172"><img class="connect" src="GitHublogo.png" height="50px" width="50px"></a>
+                            <a href="https://www.linkedin.com/in/kota-naga-seetha-079045275/"><img class="connect" src="linkedin_logo.png" height="50px" width="50px"></a>
+                        
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <h5>Send a message</h5>
+                        <form>
+                            <input class="input-style" type="text" placeholder="Full name*" required>
+                            <input class="input-style" type="text" placeholder="email address*" required>
+                            <input class="input-style" type="text" placeholder="Subject*" required>
+                            <h6>More about your project</h6>
+                            <input class="input-style2" type="text">
+                            <input class="submit-btn" type="submit">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2024 KOTA NAGA SEETHA. All rights reserved.</p>
+            </footer>
+        </div>
+</body>
+</html>

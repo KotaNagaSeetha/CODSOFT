@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+        body {
+            margin: 0;
+        }
+
+        .bg-container {
+            background-image: url("bg.png");
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            color: black;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .card1 {
+            background-color: #A95EE3;
+            color: black;
+            padding: 20px;
+            margin: 0;
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            margin-right: 10px;
+        }
+        .logo-name{
+            font-family:"Satisfy";
+            font-size: 30px;
+        }
+
+        .navigate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navigate a {
+            text-decoration: none;
+            color: black;
+            margin-left: 15px;
+            font-size: 18px;
+        }
+        .projects-heading{
+            text-align: center;
+            color: midnightblue;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 5px;
+            margin: 5px;
+            font-size: 30px;
+        }
+        .projects-paragraph{
+            padding: 5px;
+            color: black;
+            
+        }
+        .projects-card{
+            background-image: url("bg.png");
+            padding: 10px;
+            margin: 7px;
+            height: 250px;
+            width: 250px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+        .ul-list-style{
+            list-style-type:square;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .ol-list-style{
+            list-style-type: decimal;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .spacer {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+            <header class="card1">
+                <div class="logo">
+                    <a href="#"><img src="logo.jpg" height="60px" width="70px"></a>
+                    <h5 class="logo-name">Kota Naga Seetha</h5>
+                </div>
+                <div class="navigate">
+                    <a href="test.html">Home</a>
+                    <a href="about.html">About</a>
+                    <div class="spacer"></div>
+                    <a href="Skills.html">Skills</a>
+                    <a href="#"><b><u>Projects</u></b></a>
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </header>
+            <div>
+                <h4 class="projects-heading">Digital Canvas: A Showcase of My Coding Creations</h4>
+                <p class="projects-paragraph">Welcome to my Projects Page! Here, you'll find a collection of my coding adventures and web development endeavors. 
+                    Each project is a testament to my love for crafting digital experiences. 
+                    From static web pages to responsive web pages, these creations showcase my skills and dedication. 
+                    Dive in, explore, and witness the synergy of innovation and code in action.
+                     Let's embark on a journey where the digital canvas comes to life with every click and scroll. 🎨💻</p>
+                <p class="projects-paragraph">
+                    I have created the projects Podcasts web page, Landing web page, Calculator, Goa-description page, Yoga Page and current Portfolio website.<br>
+                    Click on the below cards to visit my projects.
+                    <img src="developer_icon.png" height="70px" width="70px">
+                </p>
+                
+                <div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <a href="Landing Page.html">
+                            <div class="projects-card">
+                                <h5>Landing Page</h5>
+                                <img src="Landing_Page.png" height="180px" width="230px">
+
+                            </div>
+                        </a>
+                        <a href="Calculator.html">
+                            <div class="projects-card">
+                                <h5>Calculator</h5>
+                                <img src="Calculator_pic.png" height="180px" width="230px">
+    
+                            </div>
+                        </a>
+                        <a href="Application form.html">
+                            <div class="projects-card">
+                                <h5>Admission form</h5>
+                                <img src="Admission.png" height="180px" width="230px">
+
+                            </div>
+                        </a>
+                        <a href="Podcasts.html"> 
+                            <div class="projects-card">
+                                <h5>Podcasts Page</h5>
+                                <img src="podcast page.png" height="180px" width="230px">
+
+                            </div>
+                        </a>
+                        <a href="GoaPage.html"><div class="projects-card">
+                            <h5>Goa-description page</h5>
+                            <img src="Goa.png" height="180px" width="230px">
+
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2024 KOTA NAGA SEETHA. All rights reserved.</p>
+            </footer>
+
+        </div>
+</body>
+</html>

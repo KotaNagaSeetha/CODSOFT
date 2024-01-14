@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+        body {
+            margin: 0;
+        }
+
+        .bg-container {
+            
+            background-color: #FEC5E5;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            color: black;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .card1 {
+            background-color: #A95EE3;
+            color: black;
+            padding: 20px;
+            margin: 0;
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            margin-right: 10px;
+        }
+        .logo-name{
+            font-family:"Satisfy";
+            font-size: 30px;
+        }
+
+        .navigate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navigate a {
+            text-decoration: none;
+            color: black;
+            margin-left: 15px;
+            font-size: 18px;
+        }
+        .Aboutme-heading{
+            text-align: left;
+            color: midnightblue;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 5px;
+            margin: 5px;
+        }
+        .About-paragraph{
+            text-align: left;
+            color: black;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 5px;
+            margin: 5px;
+        }
+        .About-card{
+            background-image: url("bg.png");
+            height: 200px;
+            width:400px;
+            margin:7px;
+            border-radius: 10px;
+            padding: 7px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .About-end{
+            background-color: #FEC5E5;
+            width: 100vw;
+            height: 300px;
+            padding: 10px;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        
+        .spacer {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+            <header class="card1">
+                <div class="logo">
+                    <a href="#"><img src="logo.jpg" height="60px" width="70px"></a>
+                    <h5 class="logo-name">Kota Naga Seetha</h5>
+                </div>
+                <div class="navigate">
+                    <a href="test.html">Home</a>
+                    <a href="#"><b><u>About</u></b></a>
+                    <div class="spacer"></div>
+                    <a href="Skills.html">Skills</a>
+                    <a href="Projects.html">Projects</a>
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </header>
+            <h2 class="Aboutme-heading">About Me</h2>
+            <p class="About-paragraph">Hello! I’m Kota Naga Seetha, a second-year Computer Science and Engineering student at VIT-AP University. 
+                My academic journey is a captivating exploration of the dynamic world of technology 
+                and I’m passionate about translating my classroom knowledge into hands-on experiences.
+                Currently immersed in my B.Tech program, I’ve had the opportunity to delve into diverse aspetcs of Computer Science. 
+                From mastering Programming. </p>
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="About-card">
+                            <h4>🚀Academic Explorer</h4>
+                            <p>Currently immersed in my B.Tech program, I've had the opportunity to delve into diverse aspects of Computer Science.
+                                 From mastering programming languages to unraveling
+                                  the intricacies of algorithms, every challenge fuels my curiosity and sharpens my skills.</p>
+
+                        </div>
+                        <div class="About-card">
+                            <h4>💡Code Enthusiast</h4>
+                            <p>As a code enthusiast, I find joy in crafting solutions to real-world problems. 
+                                My project portfolio is a testament to my commitment to turning ideas into tangible results. 
+                                From coding assignments to personal projects, each line of code represents a step forward in my continuous learning journey.</p>
+
+                        </div>
+                        <div class="About-card">
+                            <h4>🌐 Beyond the Classroom</h4>
+                            <p>Engagement extends beyond textbooks. 
+                                I actively participate in hackathons, coding competitions, and tech-centric events on our campus. 
+                                These experiences not only enhance my technical prowess but also foster collaboration and teamwork.</p>
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="About-card">
+                            <h4> 🛠️ Tech Toolbox</h4>
+                            <p>Proficient in languages such as Java, Python, C, HTML, and CSS, I'm also exploring JavaScript and Other backend-frame works. 
+                                Whether it's a complex algorithm or an innovative web application, I love embracing challenges that push the boundaries of my skills.</p>
+
+                        </div>
+                        <div class="About-card">
+                            <h4>🌟 Next Steps</h4>
+                            <p>Looking ahead, I aspire to become profficient in full-stack web development and competitive programming. 
+                                I believe in the transformative power of technology to shape the future, and 
+                                I am excited to contribute my skills and passion to this ever-evolving landscape.</p>
+
+                        </div>
+                        <img src="portfolio img.png" height="220px" width="200px">
+                    </div>
+                    
+
+                </div>
+                <div class="About-end">
+                    <h6>Feel free to explore my portfolio to get a glimpse of my academic and coding journey. 
+                        Let's connect and explore the boundless possibilities that technology offers!</h6>
+                    <h6>Cheers,</h6>
+                    <h6>Kota Naga Seetha</h6>
+                    <footer>
+                        <p>&copy; 2024 KOTA NAGA SEETHA. All rights reserved.</p>
+                    </footer>
+                </div>
+        </div>
+</body>
+</html>
